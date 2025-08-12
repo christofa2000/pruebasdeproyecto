@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Dark por clase */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Tokens de diseño (Tailwind v4) */
+@theme {
+  /* Colores de marca */
+  --color-brand-500: #6366f1;
+  --color-brand-600: #4f46e5;
+
+  /* Radio: sobrescribe la escala built-in */
+  --radius-2xl: 1rem;   /* ahora 'rounded-2xl' usará 1rem */
+}
